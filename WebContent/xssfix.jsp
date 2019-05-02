@@ -19,7 +19,9 @@
 	<%! String validUname = null; %>
 	
 	<%
-		String uname = request.getAttribute("username").toString();
+		String uname = "Dibri";
+		
+		//request.getAttribute("username").toString();
 		
 		
 		if(uname != null) {
@@ -27,7 +29,7 @@
 		}
 	%>
 		 UserName : Hello Dibri
-		<%-- &nbsp; &nbsp; <%=ESAPI.encoder().encodeForHTML(validUname) %> --%>
+		 &nbsp; &nbsp; <%=ESAPI.encoder().encodeForHTML(validUname) %>
 
 	</div>
 </body>
