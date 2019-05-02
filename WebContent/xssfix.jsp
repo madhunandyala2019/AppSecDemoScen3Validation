@@ -27,8 +27,9 @@
 		}*/
 	%>
 		 UserName : 
-		 &nbsp; &nbsp; <%=ESAPI.encoder().encodeForHTML(ESAPI.encoder().encodeForJavaScript(request.getAttribute("username").toString())) %>
-		<%=request.getAttribute("username").toString()%>
+	<%=request.getAttribute("username").toString()%>
+			  &nbsp; &nbsp; <%=ESAPI.encoder().encodeForHTML(ESAPI.encoder().encodeForJavaScript(request.getAttribute("username").toString())) %>
+		
 	</div>
 </body>
 </html>
