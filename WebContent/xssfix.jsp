@@ -19,15 +19,15 @@
 	<%! String validUname = null; %>
 	
 	<%
-		String uname = request.getParameter("username").toString();
+		/*String uname = request.getAttribute("username").toString();
 		
 		
 		if(uname != null) {
 			validUname = uname;
-		}
+		}*/
 	%>
-		 UserName : Hello Dibri
-		 &nbsp; &nbsp; <%=ESAPI.encoder().encodeForHTML(ESAPI.encoder().encodeForJavaScript(validUname)) %>
+		 UserName : 
+		 &nbsp; &nbsp; <%=ESAPI.encoder().encodeForHTML(ESAPI.encoder().encodeForJavaScript(request.getAttribute("username").toString())) %>
 
 	</div>
 </body>
