@@ -19,7 +19,7 @@
 	<%! String validUname = null; %>
 	
 	<%
-		String uname = request.getAttribute("username").toString();
+		String uname = request.getParameter("username").toString();
 		
 		
 		if(uname != null) {
