@@ -26,8 +26,8 @@
 			validUname = uname;
 		}
 	%>
-		 UserName :
-		&nbsp; &nbsp; <%=ESAPI.encoder().encodeForHTML(validUname) %>
+		 UserName : Hello Dibri
+		<%-- &nbsp; &nbsp; <%=ESAPI.encoder().encodeForHTML(validUname) %> --%>
 
 	</div>
 </body>
