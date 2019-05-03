@@ -18,17 +18,10 @@
 	<div class="login">
 	<%! String validUname = null; %>
 	
-	<%
-		String uname = request.getAttribute("username").toString();
+		 UserName : 
+	
+			  &nbsp; &nbsp; <%=ESAPI.encoder().encodeForHTML(ESAPI.encoder().encodeForJavaScript(request.getAttribute("username").toString())) %>
 		
-		
-		if(uname != null) {
-			validUname = uname;
-		}
-	%>
-		 UserName :
-		&nbsp; &nbsp; <%=ESAPI.encoder().encodeForHTML(validUname) %>
-
 	</div>
 </body>
 </html>
