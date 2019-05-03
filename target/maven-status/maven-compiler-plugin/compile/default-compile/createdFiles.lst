@@ -1,9 +1,0 @@
-com\ibm\security\InformationLeakageActionFix.class
-com\ibm\security\LoginForm.class
-com\ibm\security\XSSLessonForm.class
-com\ibm\security\InformationLeakageFormFix.class
-com\ibm\security\PersonDetail.class
-com\ibm\security\EmployeeAction.class
-com\ibm\security\LoginAction.class
-com\ibm\security\XSSElementActionFix.class
-com\ibm\security\EmployeeForm.class

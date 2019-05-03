@@ -1,8 +1,9 @@
 package com.ibm.security;
 
 import org.apache.struts.validator.ValidatorForm;
+import org.apache.struts.action.ActionForm;
 
-public class XSSLessonForm extends ValidatorForm {
+public class XSSLessonForm extends ActionForm {
 
 	private String userName;
 		
