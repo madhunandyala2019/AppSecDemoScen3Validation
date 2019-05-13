@@ -2,7 +2,7 @@
 <%@taglib uri="/WEB-INF/struts-bean.tld" prefix="bean"%>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
 "http://www.w3.org/TR/html4/loose.dtd">
-<%-- <%@ page import="org.owasp.encoder.Encode"%> --%>
+
 <%@ page import="org.owasp.esapi.ESAPI"%>
 
 <html>
@@ -16,7 +16,7 @@
 		
 	<jsp:include page="menu.jsp" />
 	<div class="login">
-	<%! String validUname = null; %>
+	
 	
 		 UserName : 
 				  &nbsp; &nbsp; <%=ESAPI.encoder().encodeForHTML(ESAPI.encoder().encodeForJavaScript(request.getAttribute("username").toString())) %>
