@@ -34,7 +34,7 @@
 			
 		<action input="/login.jsp" name="LoginForm" path="/Login"
 			scope="session" type="com.ibm.security.LoginAction">
-			<forward name="success" path="/home.jsp" />
+			<forward name="success" path="/xssinput.jsp" />
 			<forward name="failure" path="/failure.jsp" />
 		</action>
 
